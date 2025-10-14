@@ -1,0 +1,7 @@
+<template>
+  <lightning-card  variant="Narrow"  title="Calculator" icon-name="custom:custom11">
+  <lightning-input type="number" name="input2" label="Enter Value One" value="0" onchange={inputValueOne}></lightning-input>
+  <lightning-input type="number" name="input2" label="Enter Value Two" value="0" onchange={inputValueTwo}></lightning-input>
+  <c-calculator-child-operations value-one={produceValueOne} value-two={produceValueTwo}></c-calculator-child-operations>
+</lightning-card>  
+</template>

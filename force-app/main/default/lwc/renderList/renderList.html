@@ -1,0 +1,11 @@
+<template>
+  <lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+    <template iterator:it={contactList}>
+      <div key={it.value.id}>
+        <p>{it.value.firstName} {it.value.secondName}</p>
+      </div>
+   </template>
+    
+</lightning-card>            
+</template>
+

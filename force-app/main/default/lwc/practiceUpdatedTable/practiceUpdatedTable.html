@@ -1,0 +1,11 @@
+<template>
+  <div style="height: 300px;">
+      <c-custom-data-type
+              key-field="Id"
+              data={contacts}
+              columns={columns}
+              onsave={handleSave}
+              draft-values={draftValues}>
+            </c-custom-data-type>
+  </div>
+</template>

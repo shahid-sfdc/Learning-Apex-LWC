@@ -1,0 +1,10 @@
+.box{
+  height: 100px;
+  width: 100px;
+  color:greenyellow;
+  border: 1px solid var(--c-newColor);
+  border-radius: 10px;
+  text-align: center;
+  font-size:  20px;
+  background-color: var(--c-newColor);
+}

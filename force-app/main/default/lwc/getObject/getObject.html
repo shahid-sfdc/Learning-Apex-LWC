@@ -1,0 +1,12 @@
+<template>
+    <lightning-card icon-name="standard:account" variant="base">
+    <p>{ApiName}</p>
+    
+     <template for:each={childrelation} for:item="menuItem">
+        <p key={menuItem.childObjectApiName}>{menuItem.childObjectApiName}</p>
+    </template>
+      
+    
+    </lightning-card>
+</template>
+

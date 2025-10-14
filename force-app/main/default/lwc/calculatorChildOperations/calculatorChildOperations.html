@@ -1,0 +1,10 @@
+<template>
+  <template lwc:if={outputvalue}>
+    <p>{sum}</p>
+  </template>
+  
+  <lightning-button variant="brand" label="Addition" title="Primary action" onclick={Addition} class="slds-m-left_x-small"></lightning-button>
+  <lightning-button variant="brand" label="Subtraction" title="Primary action" onclick={Subtraction} class="slds-m-left_x-small"></lightning-button>
+  <lightning-button variant="brand" label="Multiplication" title="Primary action" onclick={Multiplication} class="slds-m-left_x-small"></lightning-button>
+  <lightning-button variant="brand" label="Divide" title="Primary action" onclick={Division} class="slds-m-left_x-small"></lightning-button>
+</template>
